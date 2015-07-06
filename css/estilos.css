@@ -1,0 +1,210 @@
+/*Inportacion de iconos*/
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+
+/*u-title*/
+.u-title{
+	border-bottom: 2px  dashed #087590;
+	font-family: 'Courgette', cursive;
+	color: #008B80;
+	font-size: 1.8em;
+	font-weight: 400;
+	text-align: center;
+	padding: .5em;
+
+}
+.-u-contrainerDefaul{
+	width: 20em;
+	margin: 0 auto;
+}
+/*MainMenu*/
+.MainMenu{
+	 background: #087590;
+	 height: 3.75em;
+	 left: 0;
+	 right: 0;
+	 position: fixed;
+	 text-align: center;
+	 top: 0;
+}
+.MainMenu-list{
+	background: #008B80;
+	box-shadow: 0 2px 5px rgba(0,0,0,.5);
+	margin: 0;
+	padding: 0;
+}
+.MainMenu-item{
+	display: inline-block;
+}
+.MainMenu-link{
+	color: #004257;
+	font-family: 'Courgette', cursive;
+	margin-right: 2em;
+	text-decoration: none;
+	line-height: 3.75em;
+	font-size: 1.2em;
+}
+.activo{
+	color: #BECFD3;
+}
+/*Header*/
+.Header{
+	margin-top: 3.75em;
+	background-image: url('../img/fondo.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	padding: 0.5em 0;
+	text-align: center;
+	width: 100%;
+}
+.header-imagen{
+	border: 3px solid #008B80;
+	border-radius: 50%;
+}
+.Header-link,.Header-nombre{
+	color: #DEE2E4;
+	text-decoration: none;
+}
+.Header-link{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.Header-nombre{
+	font-size: 1.4em;
+	font-weight: 300;
+	margin: 0;
+}
+.Header-menuBar{
+	display: none;
+}
+/*Profile*/
+.Profile{
+	text-align: center;
+}
+.Profile-description{
+	color: #637371;
+	margin: 0 auto;
+	width: 50%;
+}
+.icon{
+	display: inline-block;
+	color: #bdbdbd;
+	width: 2em;
+	height: 2em;
+	text-align: center;
+	font-size: 1.47em;
+	line-height: 2em;
+	background-color: #fff;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	box-shadow: 0px 3px 0px #bdbdbd, 0px 3px 10px #bababa;
+	-webkit-transition:background-color 250ms ease 0s;
+	transition:background-color 250ms ease 0s;
+	text-decoration: none;
+	margin-top: .5em;
+}
+.zocial-facebook{margin-left: -8px}
+
+.icon.facebook:hover{background-color: #4986c7;}
+.twitter:hover{background-color: #4cb6e8;}
+.linkedin:hover{background-color: #29a0cc;}
+.github:hover{background-color: #913399;}
+
+.icon:hover{
+  color: #fff;
+  box-shadow: 0px 3px 0px #686868, 0px 3px 10px #7e7e7e;
+}
+
+.icon:active{
+  box-shadow: inset 0px 1px 4px #3d3d3d, 0px 0px 0px #bdbdbd;
+  top: 3px;
+}
+/*.Work*/
+.Work{
+	margin: 1em;
+	text-align: center;
+}
+.Work-imagenContainer{
+	margin:0;
+}
+.Work-item{
+	display: inline-block;
+	margin-right: 1.8em;
+	margin-bottom: 1.8em;
+}
+.Work-description{
+	font-size: 1.1em;
+	font-style: italic;
+	color:orange;
+	bottom: -8em;
+
+}
+.WorkMenu-item{
+	display: inline-block;
+	margin-right: 1.8em;
+}
+/*footer*/
+.Footer{
+	background-image: url('../img/fondo.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	padding: 2em 0;
+	text-align: center;
+}
+h3.Footer-title {
+  font-family: 'Courgette', cursive;
+}
+.Footer-form{
+	display: inline-block;
+	text-align: center;
+	padding-left: .9em;
+}
+.Footer-letf{
+	background: rgba(124,137,128,.6);
+	border-radius: 0 1em;
+	display: inline-block;
+	width: 32em;
+	text-align: center;
+	vertical-align: top;
+}
+input.Footer-formInput {
+  width: 11em;
+}
+.Footer-formInput,.Footer-textarea{
+	background: rgba(124,137,128,.6);
+	border: none;
+	display: block;
+	border-radius: 1em;
+	padding: .5em;
+	margin: 0 auto 1em;
+}
+.Footer-textarea{
+	resize: none;
+}
+.Footer-button{
+  	background: rgba(124,137,128,1);
+	border: none;
+	color: white;
+	border-radius:1em;
+	padding: .5em .7em;
+}
+.Footer-button:hover{
+	background: rgba(84,115,81,1);
+}
+.Footer-title,.Footer-description{
+	color: #DEE2E4;
+	font-size: 1.4em;
+	font-weight: 300;
+}
+/*Media*/
+@media screen and(max-width:800px;){
+
+}
